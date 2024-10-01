@@ -1,6 +1,6 @@
 INTRODUCTION OF MYSQL:-
 ========================
--->MYSQL is a open source relational database management system(RDBMS) that uses Structured Query Language(SQL) to manage the data.
+MYSQL is a open source relational database management system(RDBMS) that uses Structured Query Language(SQL) to manage the data.
 Developed by MYSQL AB and now occupied by oracle corporation. it's  widely used due to its reliability, speed and ease of use.
 MYSQL is a one of the key component in many web Applications. it allows users to create , modify and maintain databases , supporting
 operations like insertion, updating and deletion.
@@ -34,6 +34,16 @@ Difference Between MySQl SQL:-
 -->MySQl supports basic programming languages like                 -->SQl itself is an query language used for database systems.
    c,c++, python, ruby, etc..
 -->MySQL does not supports user-defined functions and XML.         -->SQL supports user-defined fucntions and XML.
+
+
+WHY WE USE MySQL:-
+---------------------
+-->Open Source
+-->Scalability
+-->Security
+-->Performance
+-->compatability
+-->Reliability
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 DATABASE:-
 ==========
@@ -52,7 +62,7 @@ SYNTAX FOR INSERTING VALUES INTO TABLE:-
 ----------------------------------------
 -->insert into "table name" values(column values);
 -->"Primary key"(Constraint) : It does not allows duplicates or redundancy in the table -->for this we need to make suitable column of the table asa primary key.
--->"foreign key"(constraint) : If We make any column of table as a foreign key then that column shu=ould be the primary key in another table.(i.e for eg: courseid)
+-->"foreign key"(constraint) : If We make any column of table as a foreign key then that column shuould be the primary key in another table.(i.e for eg: courseid)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Database management categorized into following five types:-
 ------------------------------------------------------------
