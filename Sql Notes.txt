@@ -82,4 +82,28 @@ Database management categorized into following five types:-
                                      -->Isolation
                                      -->Durable
                    -->ROLLBACK, COMMIT, UPDATE
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NORMALIZATION:-
+------------------
+-->Normalization is a process of organizing the data in a database to avoid Redundancy or Duplication, Insert anamolie, update anamolie and delete anamolie.
+-->We are having following types of Normalizations:-
+    -->FIRST NORMAL FORM(1nf):-
+     ===========================
+     Rules:-
+     ========
+     -->All the columns of the table should contain only "single values".
+     -->All the rows of the table should be "Atomic" or "Unique".
+   -----------------------------------------------------------------------------------------------------------------------------------------
+   -->SECOND NORMAL FORM(2nf):-
+  ==================================
+  Rules:-
+ ===========
+ -->To satisfy the 2nf , first the table should satisy the 1nf.
+ -->we need to find the primary keys.
+ -->consider the minimal primary key and that minimal primary key is known as "CANDIDATE KEY".
+ -->The Attributes of candidate key are called as "prime Attributes" and remaining are called as non-prime attributes.
+ -->Non-prime attributes must depend upon the "prime attributes set(depend on both the primary keys)".
+-----------------------------------------------------------------------------------------------------------------------------------------------
+ -->THIRD NORMAL FORM(3nf):-
+=============================
+-->
