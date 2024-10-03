@@ -44,7 +44,7 @@ WHY WE USE MySQL:-
 -->Performance
 -->compatability
 -->Reliability
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 DATABASE:-
 ==========
 -->Database is a digital system designed for the storage and arrangement of data.
@@ -99,10 +99,10 @@ NORMALIZATION:-
   Rules:-
  ===========
  -->To satisfy the 2nf , first the table should satisy the 1nf.
- -->we need to find the primary keys.
- -->consider the minimal primary key and that minimal primary key is known as "CANDIDATE KEY".
+ -->we need to find the super keys(alone or multiple) first.
+ -->consider the minimal super key and that minimal super key is known as "CANDIDATE KEY".
  -->The Attributes of candidate key are called as "prime Attributes" and remaining are called as non-prime attributes.
- -->Non-prime attributes must depend upon the "prime attributes set(depend on both the primary keys)".
+ -->Non-prime attributes must depend upon the "prime attributes set(depend on both the primary keys) or candidate key".
 -----------------------------------------------------------------------------------------------------------------------------------------------
  -->THIRD NORMAL FORM(3nf):-
 =============================
