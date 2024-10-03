@@ -107,7 +107,8 @@ NORMALIZATION:-
    -->THIRD NORMAL FORM(3nf):-
    =============================
        -->To Satisfy 3nf , first the table should satsify the 1nf and 2nf.
-       -->Now , we need to remove transitive dependency.(transitive dependency means when a one non-prime attribute depends on another non-prime attribute).
+       -->Now , we need to remove transitive dependency.(transitive dependency means when a one non-prime attribute depends on another non-prime attribute(A->B 
+          ---> A->c).
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
    -->BCNF:-
   ================
