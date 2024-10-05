@@ -6,7 +6,7 @@ MYSQL is a one of the key component in many web Applications. it allows users to
 operations like insertion, updating and deletion.
 
 MYSQL provide many features like:-
----------------------------------
+===================================
 -->Data storage
 -->Data retrieval
 -->Data Manipulation
@@ -15,57 +15,59 @@ MYSQL provide many features like:-
 -->scalability
 
 Applications of MySQL:-
----------------------------------
+==================================
 -->E-commerce
 -->Content management System(CMS)
 -->Financial Services
 -->Health Care
 -->Social Media
 
-Difference Between MySQl SQL:-
-------------------------------
+DIFFERENCE BETWEEN MySQl AND SQL:-
+====================================
            MySQL                                                                SQL
       ------------------                                                 ----------------------
 
--->MySQL isa Relational Database Management System                 -->SQL(Structured Query Language ) is a standard Language used for communicating wit
+-->MySQL isa Relational Database Management System                 -->SQL(Structured Query Language ) is a standard Language used for communicating with
    (RDBMS) that uses SQL.                                             relational databases.
 -->MySQl isa open-source and accessible to anyone and              -->It is not-an open source Language.
    everyone for free. 
 -->MySQl supports basic programming languages like                 -->SQl itself is an query language used for database systems.
    c,c++, python, ruby, etc..
 -->MySQL does not supports user-defined functions and XML.         -->SQL supports user-defined fucntions and XML.
-
-
-WHY WE USE MySQL:-
----------------------
--->Open Source
--->Scalability
--->Security
--->Performance
--->compatability
--->Reliability
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+==================================================================================================================================================================
+DATA:- Data is a raw fact.
+Example:- your name, age, height, weight, etc.
+A picture, image, file, pdf, etc. can also be considered data.
+==================================================================================================================================================================
 DATABASE:-
 ==========
 -->Database is a digital system designed for the storage and arrangement of data.
-SYNTAX FOR CREATING DATABASE:-
------------------------------
--->create database "database name";
+-->Database Consist of tables to store the data in a organized/strucutured format.
+-->Example Data bases:- Oracle, MySQL, MongoDB, SQL Server, etc...
 -->Database consists of tables, views, stored procedures, functions.
--->tables, views come under the structured query language(SQL) and Stored procedures, functions comes under PL/SQL.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-->Tables, Views come under the structured query language(SQL) and Stored procedures, functions comes under PL/SQL.
+SYNTAX FOR CREATING DATABASE:-
+=====================================
+-->create database "database name";
+==================================================================================================================================================================
 SYNTAX FOR CREATING TABLE:-
----------------------------
+=======================================
 -->create table "table name" (Col name, datatype(Size), constraint); 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+==================================================================================================================================================================
 SYNTAX FOR INSERTING VALUES INTO TABLE:-
-----------------------------------------
+=========================================
 -->insert into "table name" values(column values);
--->"Primary key"(Constraint) : It does not allows duplicates or redundancy in the table -->for this we need to make suitable column of the table asa primary key.
--->"foreign key"(constraint) : If We make any column of table as a foreign key then that column shuould be the primary key in another table.(i.e for eg: courseid)
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Database management categorized into following five types:-
-------------------------------------------------------------
+==================================================================================================================================================================
+DATABASE MANAGEMENT SYSTEM:-
+==============================
+-->Database management system is a collection of inter-related data which helps in:
+     -->Retreival
+     -->Inserting
+     -->Deleting
+     -->Updating
+==================================================================================================================================================================
+DATABASE MANAGEMENT SYSTEM CATEGEORIZED INTO FOLLOWING FIVE TYPES:-
+====================================================================
 1)DDL(Data Definition Language) : it deals with columns or structure of the table.
                                   -->create, Drop, Alter-ADD, Alter-Modify, Alter-Drop
 
@@ -82,7 +84,7 @@ Database management categorized into following five types:-
                                      -->Isolation
                                      -->Durable
                    -->ROLLBACK, COMMIT, UPDATE
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+==================================================================================================================================================================
 NORMALIZATION:-
 ------------------
 -->Normalization is a process of organizing the data in a database to avoid Redundancy or Duplication, Insert anamolie, update anamolie and delete anamolie.
