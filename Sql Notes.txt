@@ -65,6 +65,14 @@ DATABASE MANAGEMENT SYSTEM:-
      -->Inserting
      -->Deleting
      -->Updating
+
+-->A Relational database Contains the  followwing components:
+     -->Tables
+     -->Tuple/Records
+     -->Columns/Attributes/Fields
+     -->Instance
+     -->Schema
+     -->Keys
 ==================================================================================================================================================================
 DATABASE MANAGEMENT SYSTEM CATEGEORIZED INTO FOLLOWING FIVE TYPES:-
 ====================================================================
