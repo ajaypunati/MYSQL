@@ -76,8 +76,11 @@ DATABASE MANAGEMENT SYSTEM:-
 ==================================================================================================================================================================
 DATABASE MANAGEMENT SYSTEM CATEGEORIZED INTO FOLLOWING FIVE TYPES:-
 ====================================================================
-1)DDL(Data Definition Language) : it deals with columns or structure of the table.
-                                  -->create, Drop, Alter-ADD, Alter-Modify, Alter-Drop
+1)DDL(Data Definition Language) : It deals with columns or structure of the table.
+                                  -->create = to create database or to create->table, index, views, functions, etc..
+                                  -->drop   = to delete objects from the database.
+                                  -->Alter(alter-add, alter-drop,alter-modify)  = to alter the structure of database(by adding new columns , by modifying 
+                                     existing columns or by deleting existing columns)
 
 2)DML(Data Manipulation Language) : it deals with rows of the table.
                                    -->insert, update , delete
