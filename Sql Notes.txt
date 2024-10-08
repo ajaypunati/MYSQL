@@ -24,7 +24,7 @@ Applications of MySQL:-
 
 DIFFERENCE BETWEEN MySQl AND SQL:-
 ====================================
-           MySQL                                                                SQL
+           MySQL                                                                SQL(Strucutred Query Language)
       ------------------                                                 ----------------------
 
 -->MySQL isa Relational Database Management System                 -->SQL(Structured Query Language ) is a standard Language used for communicating with
@@ -33,7 +33,7 @@ DIFFERENCE BETWEEN MySQl AND SQL:-
    everyone for free. 
 -->MySQl supports basic programming languages like                 -->SQl itself is an query language used for database systems.
    c,c++, python, ruby, etc..
--->MySQL does not supports user-defined functions and XML.         -->SQL supports user-defined fucntions and XML.
+-->MySQL does not supports user-defined functions and XML.         -->SQL supports user-defined fucntions and XML(SQL Keywords are Case Sensitive)
 ==================================================================================================================================================================
 DATA:- Data is a raw fact.
 Example:- your name, age, height, weight, etc.
@@ -82,19 +82,24 @@ DATABASE MANAGEMENT SYSTEM CATEGEORIZED INTO FOLLOWING FIVE TYPES:-
                                   -->Alter(alter-add, alter-drop,alter-modify)  = to alter the structure of database(by adding new columns , by modifying 
                                      existing columns or by deleting existing columns)
 
-2)DML(Data Manipulation Language) : it deals with rows of the table.
-                                   -->insert, update , delete
+2)DML(Data Manipulation Language) : It deals with rows of the table.
+                                   -->Insert = To insert data into the table
+                                   -->delete = To delete records from the table
+                                   -->update = To Update Existing data in a table.
 
-3)DQL(Data Query Language)     : it deals with the query's or querying data from table -->select
+3)DQL(Data Query Language)     : It deals with the query's or querying data from table 
+                                 -->Select = It is used to retrieve data from a table.
 
-4)DCL(Data Control Language)   : it deals with permissions or privileges of the table from administrator.
+4)DCL(Data Control Language)   : It deals with permissions or privileges of the table from administrator.
 
 5)TCL(Transaction control Language): TCL  Deals with ACID Properties
                                      -->Atomicity
                                      -->consistency
                                      -->Isolation
                                      -->Durable
-                   -->ROLLBACK, COMMIT, UPDATE
+                   -->COMMIT : commits transaction
+                   -->RollBack: Rollback a transaction if error occurs.
+                   -->SavePoint : Save point within a transaction.
 ==================================================================================================================================================================
 NORMALIZATION:-
 ------------------
