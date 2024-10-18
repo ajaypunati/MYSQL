@@ -130,3 +130,15 @@ NORMALIZATION:-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
    -->BCNF:-
   ================
+   -->This is the advanced version of 3nf.
+   -->BCNF is also known as 3.5NF.
+   -->To satify, the table should satisfy -->1NF, 2NF, 3NF
+   -->
+==================================================================================================================================================================
+EVALUATION PROCESS:-
+====================
+1) FROM --> SELECT
+
+2) FROM --> SELECT --> ORDER BY(to sort the data based on prefered column/attribute)
+
+3) FROM --> WHERE --> SELECT --> ORDER BY
