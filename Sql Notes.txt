@@ -142,3 +142,5 @@ EVALUATION PROCESS:-
 2) FROM --> SELECT --> ORDER BY(to sort the data based on prefered column/attribute)
 
 3) FROM --> WHERE --> SELECT --> ORDER BY
+
+4) FROM --> WHERE -->SELECT  --> DISTINCT --> ORDER BY
