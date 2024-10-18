@@ -139,8 +139,9 @@ EVALUATION PROCESS:-
 ====================
 1) FROM --> SELECT
 
-2) FROM --> SELECT --> ORDER BY(to sort the data based on prefered column/attribute)
+2) FROM --> SELECT --> ORDER BY(To sort the data based on prefered column/attribute)
 
 3) FROM --> WHERE --> SELECT --> ORDER BY
 
-4) FROM --> WHERE -->SELECT  --> DISTINCT --> ORDER BY
+4) FROM --> WHERE(To Filter the data in a table based on prefered columns) -->SELECT  --> DISTINCT(To return Unique data from a table) --> ORDER BY
+==================================================================================================================================================================
