@@ -101,6 +101,10 @@ DATABASE MANAGEMENT SYSTEM CATEGEORIZED INTO FOLLOWING FIVE TYPES:-
                    -->RollBack: Rollback a transaction if error occurs.
                    -->SavePoint : Save point within a transaction.
 ==================================================================================================================================================================
+keys in Mysql:-
+==================
+
+==================================================================================================================================================================
 NORMALIZATION:-
 ------------------
 -->Normalization is a process of organizing the data in a database to avoid Redundancy or Duplication, Insert anamolie, update anamolie and delete anamolie.
@@ -145,7 +149,10 @@ EVALUATION PROCESS:-
 
 4) FROM --> WHERE(To Filter the data in a table based on prefered columns) -->SELECT  --> DISTINCT(To return Unique data from a table) --> ORDER BY
 
-5) FROM --> WHERE --> SELECT --> DISTINCT -->ORDER BY --> LIMIT(It is a clause to fetch the rows from a table based on offset+1 and rowscount as arguements).
+5) FROM --> WHERE --> SELECT --> DISTINCT -->ORDER BY --> LIMIT(It is a clause to fetch the number of rows from a table based on offset+1 and rowscount as 
+   arguements).
 
-6)
+6) FROM --> WHERE --> GROUP BY ---> SELECT --> DISTINCT --> ORDER BY --> LIMIT
+
+7) FROM --> WHERE --> GROPU BY --> HAVING --> SELECT --> DISTINCT --> ORDER BY --> LIMIT
 ==================================================================================================================================================================
