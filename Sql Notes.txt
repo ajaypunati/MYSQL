@@ -46,6 +46,13 @@ DATABASE:-
 -->Example Data bases:- Oracle, MySQL, MongoDB, SQL Server, etc...
 -->Database consists of tables, views, stored procedures, functions.
 -->Tables, Views come under the structured query language(SQL) and Stored procedures, functions comes under PL/SQL.
+==================================================================================================================================================================
+SQL:-
+=====
+-->SQL stands for structured Query Language.
+-->SQL is the standardized language used to access/ retrieve, manipulate, delete, store the data in the database.
+-->SQL KeyWords are Case Sensitive
+==================================================================================================================================================================
 SYNTAX FOR CREATING DATABASE:-
 =====================================
 -->create database "database name";
