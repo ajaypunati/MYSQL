@@ -84,18 +84,29 @@ DATABASE MANAGEMENT SYSTEM:-
 DATABASE MANAGEMENT SYSTEM CATEGEORIZED INTO FOLLOWING FIVE TYPES:-
 ====================================================================
 1)DDL(Data Definition Language) : It deals with columns or structure of the table.
-                                  -->create = to create database or to create->table, index, views, functions, etc..
-                                  -->drop   = to delete objects from the database.
-                                  -->Alter(alter-add, alter-drop,alter-modify)  = to alter the structure of database(by adding new columns , by modifying 
+                                  -->create = To create database or to create->table, index, views, functions, etc..
+                                        syntax:- CREATE DATABASE DATABASE_NAME;
+                                                 Create table table_name(col1 datatype constraint, col2 datatype constraint,...);
+                                  -->drop   = To delete objects from the database.
+                                        syntax:- Drop table table_name;
+                                                 Drop database database_name;
+                                  -->Alter Table(alter-add, alter-drop,alter-modify)  = To alter the structure of database(by adding new columns , by modifying 
                                      existing columns or by deleting existing columns)
+                                       syntax:- Alter table "table_name" add "colname" constraint;
+                                                Alter table "table_name" modify column "column_name";
+                                                Alter table "table_name" drop column  "column_name";
 
 2)DML(Data Manipulation Language) : It deals with rows of the table.
-                                   -->Insert = To insert data into the table
-                                   -->delete = To delete records from the table
+                                   -->Insert = To insert data into a table
+                                     syntax:- Insert into table values(value1, value2 , value3,..);
+                                   -->delete = To delete existing records from the table based on "where" condition.
+                                     syntax :- Delete from "table_name" where "condition"; 
                                    -->update = To Update Existing data in a table.
+                                     syntax:-  update table_name set col1=value1, col2 = value2,..;
 
 3)DQL(Data Query Language)     : It deals with the query's or querying data from table 
                                  -->Select = It is used to retrieve data from a table.
+                                      syntax:- 
 
 4)DCL(Data Control Language)   : It deals with permissions or privileges of the table from administrator.
 
