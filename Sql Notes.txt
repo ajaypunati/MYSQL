@@ -106,7 +106,7 @@ DATABASE MANAGEMENT SYSTEM CATEGEORIZED INTO FOLLOWING FIVE TYPES:-
 
 3)DQL(Data Query Language)     : It deals with the query's or querying data from table 
                                  -->Select = It is used to retrieve data from a table.
-                                      syntax:- 
+                                      syntax:- select * from table_name;
 
 4)DCL(Data Control Language)   : It deals with permissions or privileges of the table from administrator.
 
