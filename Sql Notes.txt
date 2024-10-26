@@ -154,8 +154,8 @@ NORMALIZATION:-
   ================
    -->This is the advanced version of 3nf.
    -->BCNF is also known as 3.5NF.
-   -->To satify, the table should satisfy -->1NF, 2NF, 3NF
-   -->
+   -->Rule1:-To satify BCNF, the table should satisfy 3NF.
+   -->Rule2: "X" should be a super key for every functional dependency(X->Y) in a given Relation.
 ==================================================================================================================================================================
 EVALUATION PROCESS:-
 ====================
