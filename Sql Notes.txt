@@ -121,7 +121,10 @@ DATABASE MANAGEMENT SYSTEM CATEGEORIZED INTO FOLLOWING FIVE TYPES:-
 ==================================================================================================================================================================
 keys in Mysql:-
 ==================
-
+"PRIMARY KEY":- A unique identifier for each record in a table. It must contain unique values but cannot contain NULL values.
+"FOREIGN KEY":- A field in a table that is primary key in another table , Creating a relationship between the two tables. it ensures referential integrity.
+"CANDIDATE KEY":- It is a Minimal Super Key. It uniquely identify a row in a table. A table may have mulitple candidate keys.
+"SUPER KEY":- A set of one or two columns that taken together, can uniquely identify a row in a table. All primary keys and candidate keys are super keys but not all super keys are minimal.
 ==================================================================================================================================================================
 NORMALIZATION:-
 ------------------
@@ -174,3 +177,5 @@ EVALUATION PROCESS:-
 
 7) FROM --> WHERE --> GROPU BY --> HAVING --> SELECT --> DISTINCT --> ORDER BY --> LIMIT
 ==================================================================================================================================================================
+MYSQL CLAUSES:-
+=================
