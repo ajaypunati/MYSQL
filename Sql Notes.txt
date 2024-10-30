@@ -4,7 +4,7 @@ MYSQL is a open source relational database management system(RDBMS) that uses St
 Developed by MYSQL AB and now occupied by oracle corporation. it's  widely used due to its reliability, speed and ease of use.
 MYSQL is a one of the key component in many web Applications. it allows users to create , modify and maintain databases , supporting
 operations like insertion, updating and deletion.
-
+--> MYSQL IS A DATABASE AND SQL IS SUB LANGAUAGE OF THAT DATABASE TO ACEESS/RETRIVE DATA FROM MYSQL DATABASE.
 MYSQL provide many features like:-
 ===================================
 -->Data storage
