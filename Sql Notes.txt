@@ -179,3 +179,28 @@ EVALUATION PROCESS:-
 ==================================================================================================================================================================
 MYSQL CLAUSES:-
 =================
+1) "ORDER BY":- This Clause is used to sort the data in a table based on preferred Column in either ascending or descending order(sorts by default in ascending 
+    order).
+   eg:- select * from "table name" order by "col name" desc;
+        select * from "table_name" order by feild("col name" , parameter1,parameter2,...); -->order by in desired order.
+   from --> select --> order by -->Evaluation process.
+
+2)"WHERE" :- This is Clause is used to "filter the data or rows" in a table based on specific column;
+  eg:- select * from "table name" where "condition"
+  from --> where --> select --> order by -->Evaluation Process.
+  AND,OR,LIKE(%-->more than one character,_ -->single character),BETWEEN,NOT,IN -->these are the operators we can use in where clause.
+
+3)"LIMIT" :- The Limit key word is used to fetch the limited number of rows from a table by taking "offset" and "rowscount" as a parameters.
+  eg:- select * from "tablename" limit 0,10;
+  from --> where --> select --> order by -->limit; -->Evaluation Process.
+
+4)"GROUP BY" :- The Group by clause is used to calculate an aggregate value for each group.
+   eg: select col1,col2,col3,..coln from "table name" where "condition" group by col(i) order by "col name" limit 0,100;
+  from --> where --> group by --> select --> order by -->limit ; -->Evaluation Process.
+
+5)"HAVING" :- The Having clause is used to evaluate the condition after group by with aggregate functions.
+   eg: select col1,col2,col3,..coln from "table name" where "condition" group by col(i) having "condition" order by "col name" limit 0,100;
+  from --> where --> group by -->Having  --> select --> order by -->limit ; -->Evaluation Process.
+==================================================================================================================================================================
+AGGREGATE FUNCTIONS:-
+======================
