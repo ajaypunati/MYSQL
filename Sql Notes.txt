@@ -202,5 +202,5 @@ MYSQL CLAUSES:-
    eg: select col1,col2,col3,..coln from "table name" where "condition" group by col(i) having "condition" order by "col name" limit 0,100;
   from --> where --> group by -->Having  --> select --> order by -->limit ; -->Evaluation Process.
 ==================================================================================================================================================================
-AGGREGATE FUNCTIONS:-
-======================
+AGGREGATE FUNCTIONS:-(MIN(), MAX(), COUNT(),AVG(),SUM(),DISTINCT())
+======================================================================
