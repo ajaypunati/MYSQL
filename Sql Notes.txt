@@ -52,6 +52,7 @@ SQL:-
 -->SQL stands for structured Query Language.
 -->SQL is the standardized language used to access/ retrieve, manipulate, delete, store the data in the database.
 -->SQL Keyword's are Case Sensitive
+-->SQL is a Sub-Language in MYSQl database used to retrive , manipulate, store data in the databses.
 ==================================================================================================================================================================
 SYNTAX FOR CREATING DATABASE:-
 =====================================
@@ -69,9 +70,9 @@ DATABASE MANAGEMENT SYSTEM:-
 ==============================
 -->Database management system is a collection of inter-related data which helps in:
      -->Retrieval
-     -->Inserting
-     -->Deleting
-     -->Updating
+     -->Insertion
+     -->Deletion
+     -->Updation
 
 -->A Relational database Contains the  following components:
      -->Tables
@@ -102,7 +103,7 @@ DATABASE MANAGEMENT SYSTEM CATEGEORIZED INTO FOLLOWING FIVE TYPES:-
                                    -->delete = To delete existing records from the table based on "where" condition.
                                      syntax :- Delete from "table name" where "condition"; 
                                    -->update = To Update Existing data in a table.
-                                     syntax:-  update "table name" set col1=value1, col2 = value2,..;
+                                     syntax:-  update "table name" set col1=value1, col2 = value2,.. where "condition";
 
 3)DQL(Data Query Language)     : It deals with the query's or querying data from table 
                                  -->Select = It is used to retrieve data from a table.
