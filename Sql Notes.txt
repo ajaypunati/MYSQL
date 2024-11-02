@@ -125,7 +125,8 @@ keys in MySQL:-
 "PRIMARY KEY":- A unique identifier for each record in a table. It must contain unique values but cannot contain NULL values.
 "FOREIGN KEY":- A field in a table that is primary key in another table , Creating a relationship between the two tables. it ensures referential integrity.
 "CANDIDATE KEY":- It is a Minimal Super Key. It uniquely identify a row in a table. A table may have multiple candidate keys.
-"SUPER KEY":- A set of one or two columns that taken together, can uniquely identify a row in a table. All primary keys and candidate keys are super keys but not all super keys are minimal.
+"SUPER KEY":- A set of one or two columns that taken together, can uniquely identify a row in a table. All primary keys and candidate keys are super keys but not 
+              all super keys are minimal.
 ==================================================================================================================================================================
 NORMALIZATION:-
 ------------------
@@ -205,3 +206,23 @@ MYSQL CLAUSES:-
 ==================================================================================================================================================================
 AGGREGATE FUNCTIONS:-(MIN(), MAX(), COUNT(),AVG(),SUM(),DISTINCT())
 ======================================================================
+1) MIN():- The MIN() function returns  smallest value of the column;
+   eg:- select MIN(sal) from "table name" where "condition";
+
+2) MAX():- The MAX() function returns  largest value of the column;
+   eg:- select MAX(sal) from "table name" where "condition";
+
+3) COUNT():- The COUNT() function returns the number of rows which matches a criteria.
+   eg:- select COUNT(*) from "table name" where "condition";
+
+4) AVG():- The AVG() function returns avg value of a numeric column.
+   eg:- select Avg(col) from "table name" where "condition";
+
+5)SUM():- The SUM() function returns total value of a numeric column.
+  eg:- select SUM(col) from "table name" where "condition";
+
+6)DISTINCT():- The DISTINCT() function returns unique data from a table.
+  eg:- select DISTINCT(col) from "Table name" where "condition";
+7)stDev(expression):-
+8)stDevp(expression):-
+==================================================================================================================================================================
