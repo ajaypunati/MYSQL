@@ -93,9 +93,9 @@ DATABASE MANAGEMENT SYSTEM CATEGEORIZED INTO FOLLOWING FIVE TYPES:-
                                                  Drop database "database name";
                                   -->Alter Table(alter-add, alter-drop, alter-modify)  = To alter the structure of database(by adding new columns , by modifying 
                                      existing columns or by deleting existing columns)
-                                       syntax:- Alter table "table name" add "Col name" constraint;
-                                                Alter table "table name" modify column "column name";
-                                                Alter table "table name" drop column  "column name";
+                                       syntax:- Alter table "table name" add "Col name" datatype;
+                                                Alter table "table name" modify  "column name" datatype;
+                                                Alter table "table name" drop  "column name";
 
 2)DML(Data Manipulation Language) : It deals with rows of the table.
                                    -->Insert = To insert data into a table
