@@ -232,5 +232,15 @@ MYSQL JOINS AND VIEWS:-
 
 Important topics in sql and plsql:-
 -----------------------------------
+-->Normalization
+-->evaluation process
 -->Constraints
--->
+-->Aggregate functions
+-->sub queries
+-->joins
+-->views
+-->clauses
+-->stored procedure(IN,OUT, INOUT)--conditions, control
+-->functions--conditions, control
+-->triggers
+-->cursor
